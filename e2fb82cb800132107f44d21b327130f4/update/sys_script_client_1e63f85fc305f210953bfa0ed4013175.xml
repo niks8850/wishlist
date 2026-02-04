@@ -19,6 +19,7 @@
    
     if(g_form.isNewRecord()){
         g_form.setValue('requester',g_user.userID);
+		g_form.addInfoMessage("This is a test message created to test the commit from ServiceNow Studio.")
 	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -27,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1e63f85fc305f210953bfa0ed4013175</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Wish Item Set Requester</sys_name>
         <sys_overrides/>
         <sys_package display_value="wishlist" source="x_snc_wishlist">e2fb82cb800132107f44d21b327130f4</sys_package>
@@ -35,7 +36,7 @@
         <sys_scope display_value="wishlist">e2fb82cb800132107f44d21b327130f4</sys_scope>
         <sys_update_name>sys_script_client_1e63f85fc305f210953bfa0ed4013175</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-04 01:32:37</sys_updated_on>
+        <sys_updated_on>2026-02-04 01:37:35</sys_updated_on>
         <table>x_snc_wishlist_wish_item</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
